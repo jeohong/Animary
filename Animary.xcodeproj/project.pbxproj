@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A32948B8282BFBB2009B8039 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32948B7282BFBB2009B8039 /* DiaryViewController.swift */; };
+		A32948BA282BFBD5009B8039 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32948B9282BFBD5009B8039 /* SettingViewController.swift */; };
 		A3EA83E2282B49B700EF6F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EA83E1282B49B700EF6F12 /* AppDelegate.swift */; };
 		A3EA83E4282B49B700EF6F12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EA83E3282B49B700EF6F12 /* SceneDelegate.swift */; };
-		A3EA83E6282B49B700EF6F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EA83E5282B49B700EF6F12 /* ViewController.swift */; };
+		A3EA83E6282B49B700EF6F12 /* MyFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EA83E5282B49B700EF6F12 /* MyFriendsViewController.swift */; };
 		A3EA83E9282B49B700EF6F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EA83E7282B49B700EF6F12 /* Main.storyboard */; };
 		A3EA83EB282B49B900EF6F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EA83EA282B49B900EF6F12 /* Assets.xcassets */; };
 		A3EA83EE282B49B900EF6F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EA83EC282B49B900EF6F12 /* LaunchScreen.storyboard */; };
@@ -36,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A32948B7282BFBB2009B8039 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		A32948B9282BFBD5009B8039 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		A3EA83DE282B49B700EF6F12 /* Animary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EA83E1282B49B700EF6F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3EA83E3282B49B700EF6F12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3EA83E5282B49B700EF6F12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3EA83E5282B49B700EF6F12 /* MyFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsViewController.swift; sourceTree = "<group>"; };
 		A3EA83E8282B49B700EF6F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3EA83EA282B49B900EF6F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3EA83ED282B49B900EF6F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A32948BB282BFBFF009B8039 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3EA83E5282B49B700EF6F12 /* MyFriendsViewController.swift */,
+				A32948B7282BFBB2009B8039 /* DiaryViewController.swift */,
+				A32948B9282BFBD5009B8039 /* SettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A32948BC282BFC11009B8039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3EA83E7282B49B700EF6F12 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A3EA83D5282B49B700EF6F12 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +121,10 @@
 		A3EA83E0282B49B700EF6F12 /* Animary */ = {
 			isa = PBXGroup;
 			children = (
+				A32948BC282BFC11009B8039 /* View */,
+				A32948BB282BFBFF009B8039 /* Controller */,
 				A3EA83E1282B49B700EF6F12 /* AppDelegate.swift */,
 				A3EA83E3282B49B700EF6F12 /* SceneDelegate.swift */,
-				A3EA83E5282B49B700EF6F12 /* ViewController.swift */,
-				A3EA83E7282B49B700EF6F12 /* Main.storyboard */,
 				A3EA83EA282B49B900EF6F12 /* Assets.xcassets */,
 				A3EA83EC282B49B900EF6F12 /* LaunchScreen.storyboard */,
 				A3EA83EF282B49B900EF6F12 /* Info.plist */,
@@ -258,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EA83E6282B49B700EF6F12 /* ViewController.swift in Sources */,
+				A32948BA282BFBD5009B8039 /* SettingViewController.swift in Sources */,
+				A32948B8282BFBB2009B8039 /* DiaryViewController.swift in Sources */,
+				A3EA83E6282B49B700EF6F12 /* MyFriendsViewController.swift in Sources */,
 				A3EA83E2282B49B700EF6F12 /* AppDelegate.swift in Sources */,
 				A3EA83E4282B49B700EF6F12 /* SceneDelegate.swift in Sources */,
 			);
