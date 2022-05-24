@@ -34,7 +34,7 @@
                         <viewLayoutGuide key="safeArea" id="7sn-6c-cjH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="설정" image="rectangle.and.pencil.and.ellipsis" catalog="system" id="T3V-6L-H4a"/>
+                    <tabBarItem key="tabBarItem" title="설정" image="gearshape" catalog="system" id="T3V-6L-H4a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NtB-3s-I6x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,6 +46,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Ngx-Ob-sqY" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jTR-vJ-nn6">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -78,8 +79,8 @@
     </scenes>
     <resources>
         <image name="calendar.circle" catalog="system" width="128" height="121"/>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="heart" catalog="system" width="128" height="109"/>
-        <image name="rectangle.and.pencil.and.ellipsis" catalog="system" width="128" height="81"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
